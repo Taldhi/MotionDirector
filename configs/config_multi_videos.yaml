@@ -1,5 +1,5 @@
 # Pretrained diffusers model path.
-pretrained_model_path: "/Users/rui/data/models/zeroscope_v2_576w/"
+pretrained_model_path: "/home/pritam/workspace/MotionDirector-main/models/model_scope/"
 
 # The folder where your training outputs will be placed.
 output_dir: "./outputs/train"
@@ -55,7 +55,7 @@ train_data:
   n_sample_frames: 16
 
   # 'multiple videos'
-  path: "./test_data/bicycle-1/"
+  path: "./test_data/bicycle/"
 
   # The prompt when using a a single video file
   fallback_prompt: "A person is riding a bicycle."
@@ -67,12 +67,76 @@ validation_data:
   prompt:
   - "A person is riding a bicycle past the Eiffel Tower."
   - "A panda is riding a bicycle in a garden."
-
+  - "the-guy-pours-water-on-his-head-trying-to-cool-summer-heat"
+  - "a_man_is_running"
+  - "a_man_is_cycling_in_rain"
+  - "toronto-ontario-canada-june-scorching-hot-summer-day-with-heat-waves-rising-off-pavement-and"
+  - "stock-footage-young-man-dancing-breakdance-on-a-frozen-pond-in-winter"
+  - "stock-footage-toronto-ontario-canada-june-scorching-hot-summer-day-with-heat-waves-rising-off-pavement-and"
+  - "stock-footage-the-girl-shakes-off-the-snow"
+  - "stock-footage-teenager-in-the-winter-park-doing-sports-doing-gymnastic-exercises-in-winter-outdoors-healthy"
+  - "stock-footage-team-victory-teamwork-guys-jumping-joy-congratulations-silhouette"
+  - "stock-footage-snow-storm-in-new-york-manhattan-heavy-snow-fall-blizzard-snow-storm-in-the-city-empty-streets"
+  - "stock-footage-portrait-of-an-african-little-boy-jumping-and-dancing-under-pouring-water-happy-and-innocent-black"
+  - "stock-footage-portrait-happy-smiling-little-boy-in-sunglasses-and-hat-having-fun-dancing-in-summer-park"
+  - "stock-footage-in-the-night-santa-and-his-reindeer-fly-over-the-illuminated-city-for-christmas-d-animations"
+  - "stock-footage-boy-enjoy-life-summertime-under-rain-happy-child-in-park-children-need-freedom-try-not-to-over"
+  - "stock-footage-a-cyclist-is-riding-downhill-in-the-forest-he-is-moving-from-side-to-side-for-better-control"
+  - "stock-footage-aerial-shot-of-man-riding-fast-on-modern-sport-motorbike-at-highway-during-sunset-motorcyclist"
+  - "stock-footage-attractive-white-modern-car-standing-at-parking-space-flashing-with-turned-on-bright-headlights"
+  - "stock-footage-authentic-real-monks-in-bagan-mayanmar-burma-doing-meditation-on-ancient-pagoda-temple-at-sunrise"
+  - "stock-footage-authentic-shot-of-an-indian-senior-monk-practicing-yoga-in-a-temple-setting-serene-and-meditative"
+  - "stock-footage-beard-religious-saint-of-indian-ethnicity-wrapping-traditional-red-shawl-and-holding-rudraksha-in (1)"
+  - "stock-footage-beard-religious-saint-of-indian-ethnicity-wrapping-traditional-red-shawl-and-holding-rudraksha-in"
+  - "stock-footage-beard-yogi-of-indian-ethnicity-chanting-mantras-sitting-in-lotus-position-outdoor-in-nature-holding"
+  - "stock-footage-beautiful-free-and-wild-woman-sitting-in-meditation-pose-on-the-indian-beach-lotus-position"
+  - "stock-footage-buddha-monk-practice-meditation-at-waterfall-in-rainforest"
+  - "stock-footage-buddhist-monk-in-meditation-at-water-fall-on-the-mountain"
+  - "stock-footage-calm-blonde-business-woman-dressed-in-classic-black-suit-meditate-in-lotus-position-while-office"
+  - "stock-footage-camera-is-flying-above-waterfall-in-eastern-tropical-forrest-fast-shooting-first-drone-aerial"
+  - "stock-footage-car-traffic-at-road-with-puddles-after-the-rain"
+  - "stock-footage-cars-driving-on-city-street-road-over-deep-muddy-puddle-and-splashing-water-from-wheels"
+  - "stock-footage-cycling-bicycle-wheel-bike-gear-sport-recreation-cycling-cardio-workout-exercising-bike-wheel"
+  - "stock-footage-cyclist-on-bicycle-drivetrain-system-chain-gear-bike-wheel-cycling-chain-cassette-spokes"
+  - "stock-footage-electric-car-drive-on-the-wind-turbines-background-car-drives-along-a-mountain-road-electric-car"
+  - "stock-footage-flooded-cars-on-the-street-of-the-city-street-after-heavy-rain-water-could-enter-the-engine"
+  - "stock-footage-footage-from-multiple-trees-that-growing-tall-in-a-forest"
+  - "stock-footage-hand-touching-water-in-the-forest-river-or-lake-people-travel-enjoying-nature-and-life-concept"
+  - "stock-footage-horror-scene-of-a-scary-woman-in-the-fog"
+  - "stock-footage-ivano-frankivsk-ukraine-june-city-traffic-with-cars-driving-on-flooded-road-with-dirty"
+  - "stock-footage-kolkata-india-th-oct-video-of-the-float-carrying-the-statue-of-neta-ji-subhash-chandra"
+  - "stock-footage-little-asian-girl-riding-bike-with-full-protective-gears-outdoors-in-park-while-parents-watching"
+  - "stock-footage-little-girl-in-white-dress-looking-like-a-ghost-carelessly-running-down-the-hallway-of-a-haunted"
+  - "stock-footage-mangrove-jungle-river-with-reflections-sicao-green-tunnel-in-taijiang-national-nature-park-tainan"
+  - "stock-footage-monks-meditating-to-practice-the-dharma"
+  - "stock-footage-motorcyclist-riding-fast-at-dusk-on-country-road-in-slow-motion-motorcycle-adventure-lifestyle"
+  - "stock-footage-moving-through-a-tropical-forest-with-a-large-tree-at-the-front-and-a-lush-coloration-that-can-be"
+  - "stock-footage-nature-river-waterfall-forest-sun-morning-magical"
+  - "stock-footage-people-on-boat-navigating-the-amazon-river-in-peru-aerial-following-shot"
+  - "stock-footage-romantic-active-couple-riding-e-bike-bicycles-on-a-beautiful-outdoor-woods-path-wide-shot-friends"
+  - "stock-footage-seattle-wa-usa-march-g-wagon-driving-on-the-highway-showing-the-passenger-side"
+  - "stock-footage-senior-woman-practicing-yoga-while-sitting-on-yoga-mat-side-view-footage-of-senior-woman"
+  - "stock-footage-shamanic-session-in-the-by-the-river-shaman-during-prayer-by-the-river"
+  - "stock-footage-silhouettes-of-two-hikers-with-backpacks-enjoying-sunset-view-from-top-of-a-mountain-enjoying-the"
+  - "stock-footage-stream-running-fast-in-summer-green-forest-small-waterfall-with-crystal-clear-water-stones-and"
+  - "stock-footage-suan-phueng-ratchaburi-province-thailand-november-oh-poi-market-is-a-morning-market"
+  - "stock-footage-sunbeams-filtering-through-the-dense-foliage-of-a-man-made-forest-in-the-philippines-serene-and"
+  - "stock-footage-teamwork-travelers-with-backpacks-are-walking-across-the-field-at-sunset-travelers-enjoy-the"
+  - "stock-footage-three-hiker-women-with-backpacks-walk-along-field-at-scenic-mountain-landscape-in-sun-light-active"
+  - "stock-footage-top-down-view-of-fast-moving-river-with-rapids-surrounded-by-pine-forest-shot-in-norway"
+  - "stock-footage-triathlete-cyclist-training-cycling-on-bicycle-sport-recreation-workout-fit-athlete-sport-workout"
+  - "stock-footage-video-footage-from-a-lot-of-kinds-of-plants-growing-up-in-a-forest"
+  - "stock-footage-video-footage-of-a-rain-forest-in-peru-south-america"
+  - "stock-footage-welcome-to-hell-animated-horror-collection-with-frightened-face-monster-from-dark-and-suicidal"
+  - "stock-footage-wide-shot-of-young-blonde-businesswoman-sitting-on-desk-with-closed-eyes-and-meditating-while-her"
+  - "stock-footage-wild-mountain-river-flowing-through-stone-boulders-abundant-clear-stream-in-carpathians-cold"
+  - "stock-footage-young-blonde-woman-engaged-in-yoga-on-the-beach-by-the-sea-background-of-the-sunrise-or-sunset"
+  - "stock-footage-young-man-in-helmet-riding-fast-on-modern-black-sport-motorbike-at-evening-city-street"
   # Whether or not to sample preview during training (Requires more VRAM).
   sample_preview: True
 
   # The number of frames to sample during validation.
-  num_frames: 16
+  num_frames: 30
 
   # Height and width of validation sample.
   width: 384
@@ -85,7 +149,7 @@ validation_data:
   guidance_scale: 12
 
   # scale of spatial LoRAs, default is 0
-  spatial_scale: 0
+  spatial_scale: 0.1
 
   # scale of noise prior, i.e. the scale of inversion noises
   noise_prior: 0

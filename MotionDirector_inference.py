@@ -254,9 +254,10 @@ if __name__ == "__main__":
     # =========================================
 
     lora_path = f"{args.checkpoint_folder}/checkpoint-{args.checkpoint_index}/temporal/lora"
+    print(lora_path)
     latents_folder = f"{args.checkpoint_folder}/cached_latents"
     latents_path = f"{latents_folder}/{random.choice(os.listdir(latents_folder))}"
-    assert os.path.exists(lora_path)
+    #assert os.path.exists(lora_path)
     video_frames = inference(
         model=args.model,
         prompt=args.prompt,
